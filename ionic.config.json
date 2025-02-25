@@ -1,0 +1,7 @@
+{
+  "name": "ionicComptador",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
