@@ -2,7 +2,11 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Blank</ion-title>
+        <ion-title>Home</ion-title>
+        <ion-buttons slot="end">
+          <ion-button router-link="/comptador">Comptador</ion-button>
+          <ion-button router-link="/posts">Posts</ion-button>
+        </ion-buttons>
       </ion-toolbar>
     </ion-header>
 
@@ -22,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import {IonButton, IonButtons, IonContent, IonHeader, IonPage, IonTitle, IonToolbar} from '@ionic/vue';
 </script>
 
 <style scoped>

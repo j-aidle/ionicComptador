@@ -6,6 +6,9 @@
           <ion-button router-link="/home">Home</ion-button>
         </ion-buttons>
         <ion-title>Comptador</ion-title>
+        <ion-buttons slot="end">
+          <ion-button router-link="/posts">Posts</ion-button>
+        </ion-buttons>
       </ion-toolbar>
     </ion-header>
     <ion-content>
